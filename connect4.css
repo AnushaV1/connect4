@@ -1,0 +1,100 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #93c572;
+}
+#title {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 10px;
+    margin: 20px;
+}
+div {
+ float: left;
+}
+input {
+margin: 5px;
+border: 1px solid #d7d7d7;
+border-radius: 10px;
+margin-bottom: 10px;
+font-size: 12px;
+color: #404b46;
+padding: 0 15px;
+height: 30px;
+width: 90px;
+}
+#btnStartGame {
+  margin:5px;
+  background: #40414b;
+  border: 1px solid #d7d7d7;
+  border-radius: 10px;
+  width: 90px;
+  height: 33px;
+  padding: 0 8px;
+  font-size: 13px;
+color: #fff;
+
+}
+#board {
+display: block;
+position: relative;
+margin: auto;
+background-color: rgba(245, 245, 245, 0.5);
+padding: 5px;
+border-radius: 5px;
+}
+
+#board tr {
+display: block;
+text-align: center;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+#board td {
+    width: 50px;
+    height: 50px;
+    border:  #009900 1px solid;
+    margin-top: 10px;
+} 
+#top_row td {
+       border: dashed 1px #009900;
+       margin-bottom: 10px;
+      }
+      #top_row td:hover {
+background-color: rgb(128, 252, 128);
+}
+#current-player {
+display: flex;
+padding: 0.5rem;
+margin-left: 1rem;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1rem;
+align-items: center;
+}
+#current-player span{
+display: flex;
+padding: 0.2rem;
+margin-left: 0.5rem;
+width: 1.5rem;
+height: 1.5rem;
+border: solid 1px darkgray;
+justify-content: center;
+align-items: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.35rem;
+color: white;
+}
+.dot {
+height: 80%;
+width: 80%;
+margin: 5px;
+border-radius: 50%;
+position: absolute;
+top: 0px;
+width:40px;
+height:40px;
+}
